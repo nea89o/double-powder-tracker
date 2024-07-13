@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+    <Container version="2">
+    <Name>Double Powder Tracker</Name>
+    <Repository>ghcr.io/nea89o/double-powder-tracker</Repository>
+    <Registry>ghcr.io</Registry>
+    <Network>bridge</Network>
+    <Privileged>false</Privileged>
+    <Support>https://discord.gg/64pFP94AWA</Support>
+    <Project>https://github.com/nea89o/double-powder-tracker</Project>
+    <Overview></Overview>
+    <WebUI>https://www.youtube.com/watch?v=dQw4w9WgXcQ</WebUI>
+    <Icon>https://nea.moe/runescape.wiki/twinflower.jpg</Icon>
+    <ExtraParams/>
+    <PostArgs/>
+    <DonateText>Please give me SkyBlock coins</DonateText>
+    <DonateLink>https://sky.shiiyu.moe/stats/lrg89/</DonateLink>
+
+    <Config Name="Role Id" Target="ROLE_ID" Default="" Mode="" Description="The role to ping every time there is an event" Type="Variable" Display="always" Required="true" Mask="false" />
+    <Config Name="Check interval" Target="INTERVAL_IN_SECONDS" Default="60" Mode="" Description="Interval in which to check for new events" Type="Variable" Display="always" Required="true" Mask="false" />
+    <Config Name="Event Name" Target="EVENT_NAME" Default="DOUBLE_POWDER" Mode="" Description="The event name to ping for" Type="Variable" Display="always" Required="true" Mask="false" />
+    <Config Name="Event Location" Target="EVENT_LOCATION" Default="DWARVEN_MINES" Mode="" Description="The location to look events for" Type="Variable" Display="always" Required="true" Mask="false" />
+    <Config Name="Webhook Url" Target="WEBHOOK_URL" Default="" Mode="" Description="The discord webhook url" Type="Variable" Display="always" Required="true" Mask="true" />
+</Container>

@@ -1,0 +1,16 @@
+{
+  "name": "bitch-quit-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "eris": "^0.16.1",
+    "node-fetch": "^2.6.7"
+  }
+}
